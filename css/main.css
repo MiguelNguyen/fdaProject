@@ -1,0 +1,76 @@
+#wrapper {
+	text-align: center;
+}
+#banner {
+	margin-left: 25%;
+	margin-top: 1.75%;
+
+}
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/background.jpg);
+}
+#title {
+	font-family: 'Inconsolata', monospace;
+	font-size: 35px;
+	color: black;
+}
+#fdaSearch {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 1.25%;
+	padding-bottom: 1.25%;
+	font-size: 15px;
+	text-align: center;
+}
+#btn {
+	background-color: #9E0808;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+}
+.button {
+    position: relative;
+    background-color: #4CAF50;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.button:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+#effects {
+	font-size: 35px;
+	font-family: 'Inconsolata', monospace;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>FDA API</title>
+	<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Poiret+One" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+
+	<nav>
+		<img id="banner" src="img/banner.jpg">
+	</nav>
+
+	<div id='wrapper'>
+    	<h2 id='title'>Search for serious side <em>effects</em> to any <em style="color:blue">narcotic</em>,<br> and remember to say <em style="color:red; text-decoration: line-through;" text-decoration: line-through;>NO</em> to drugs.</h2>
+	   		<input id="fdaSearch" type="text" placeholder="Type Name of drug" /><br><br>
+	    	<button onclick="search()" class="button">Search
+	    	</button>
+    	<div id='effects'></div>
+	</div>
+
+
+
+ 
+<script src="js/main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</body>
+
+</html>
